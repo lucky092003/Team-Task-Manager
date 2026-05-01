@@ -1,6 +1,11 @@
 # Team Task Manager
+The Team Task Manager is a full-stack web application designed to streamline project and task management within a team. It enables users to create and manage projects, assign tasks to team members, and monitor progress efficiently through a centralized dashboard.
 
-Simple app to manage projects and tasks.
+The application implements secure user authentication (Signup/Login) along with role-based access control, where Admins can create projects, manage teams, and assign tasks, while Members can view and update their assigned tasks.
+
+It provides essential features such as task status tracking (To-Do, In Progress, Completed), overdue task monitoring, and project-wise organization, helping teams stay productive and organized.
+
+This project is built using modern web technologies with a RESTful API architecture, a structured database (SQL/NoSQL), proper validations, and well-defined relationships between users, projects, and tasks. The application is fully deployed, making it accessible and usable in a real-world environment.
 
 ## Features
 
@@ -48,3 +53,5 @@ npm run dev
 - Use render.yaml for Render deployment
 - Or deploy server and client separately
 - Check backend health at /api/health
+
+
