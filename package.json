@@ -1,0 +1,11 @@
+{
+  "name": "team-task-manager",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "install-all": "npm install --prefix server && npm install --prefix client",
+    "build": "npm run build --prefix client",
+    "start": "npm start --prefix server",
+    "dev": "npm run dev --prefix server"
+  }
+}
