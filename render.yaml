@@ -2,7 +2,7 @@ services:
   - type: web
     name: team-task-manager-api
     runtime: node
-    buildCommand: npm install --prefix server && npm install --prefix client && npm run build --prefix client
+    buildCommand: npm ci --prefix server && npm ci --prefix client && npm run build --prefix client
     startCommand: npm start --prefix server
     healthCheckPath: /api/health
     envVars:
